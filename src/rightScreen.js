@@ -23,7 +23,7 @@ import Box from '@mui/material/Box';
 //DRAWER COMPONENT
 import Drawer from '@mui/material/Drawer';
 import Divider from '@mui/material/Divider';
-import { styled, useTheme } from '@mui/material/styles';
+// import { styled} from '@mui/material/styles';
 const styles = (theme) => ({
     flex_: {
         alignItems: "center",
@@ -371,14 +371,14 @@ const styles = (theme) => ({
 // const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
-const DrawerHeader = styled('div')(({ theme }) => ({
-    display: 'flex',
-    alignItems: 'center',
-    padding: theme.spacing(0, 1),
-    // necessary for content to be below app bar
-    ...theme.mixins.toolbar,
-    justifyContent: 'flex-start',
-}));
+// const DrawerHeader = styled('div')(({ theme }) => ({
+//     display: 'flex',
+//     alignItems: 'center',
+//     padding: theme.spacing(0, 1),
+//     // necessary for content to be below app bar
+//     ...theme.mixins.toolbar,
+//     justifyContent: 'flex-start',
+// }));
 class RightScreen extends React.Component {
 
     constructor(props) {
@@ -502,12 +502,12 @@ class RightScreen extends React.Component {
                                             </Grid>
                                         </Grid>
                                         <Grid container spacing={2} className={classes.subs}>
-                                            <Grid item item xs={9} sm={10} md={10}>
+                                            <Grid item xs={9} sm={10} md={10}>
                                                 <Typography variant="subtitle1" className={classes.stats}>
                                                     Total
                                                 </Typography>
                                             </Grid>
-                                            <Grid item item xs={3} sm={2} md={2}>
+                                            <Grid item xs={3} sm={2} md={2}>
                                                 <Typography variant="subtitle1" className={classes.grandTotal}>
                                                     $17.99
                                                 </Typography>
