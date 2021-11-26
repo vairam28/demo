@@ -7,16 +7,12 @@ import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import OutlinedInput from '@mui/material/OutlinedInput';
-// import InputLabel from '@mui/material/InputLabel';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControl from '@mui/material/FormControl';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-
-
 const styles = (theme) => ({
     backGrou: {
         background: "#f7f7f9",

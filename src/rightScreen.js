@@ -21,13 +21,10 @@ import SendTwoToneIcon from '@mui/icons-material/SendTwoTone';
 import DoneIcon from '@mui/icons-material/Done';
 import Box from '@mui/material/Box';
 
-
 //DRAWER COMPONENT
 import Drawer from '@mui/material/Drawer';
 import Divider from '@mui/material/Divider';
 import { styled, useTheme } from '@mui/material/styles';
-
-
 const styles = (theme) => ({
     flex_: {
         alignItems: "center",
