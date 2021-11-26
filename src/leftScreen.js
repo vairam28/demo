@@ -172,7 +172,7 @@ class LeftScreen extends React.Component {
                         </Grid>
                         <Grid item xs={6} className={classes.account}>
                             <Stack spacing={2} direction="row" className={classes.violet}>
-                                <Button variant="contained">Create Account</Button>
+                                <Button variant="contained">New Account</Button>
                             </Stack>
                         </Grid>
                     </Grid>
